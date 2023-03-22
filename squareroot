@@ -1,0 +1,15 @@
+//this is a C++ program that does the square root of positive integers
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int num1,squareroot;
+    cout<<"Enter a number :";
+    cin>>num1;
+    if (num1>0)
+    {
+        cout<<"the square root of "<<num1<< "is "<<sqrt(num1);
+    }
+    return 0;
+ }
